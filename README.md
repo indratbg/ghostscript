@@ -32,12 +32,13 @@ maka cek dengan menggunakan terminal
 
 > > /opt/lampp/lampp restart
 
-#Jika belum bisa lakukan LD_PRELOAD pada libgs.so.9
+# Jika belum bisa lakukan LD_PRELOAD pada libgs.so.9
+
 caranya :
 
 > > export LD_PRELOAD=path libgs.so.9
 
-#cek apakah sudah masuk dengan caranya
+# Cek apakah sudah masuk dengan caranya
 
 > > ldd /bin/ls
 
