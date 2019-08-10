@@ -27,14 +27,18 @@ Jika terdapat error libtiff.so.5
 maka cek dengan menggunakan terminal
 
 > > ldd /opt/lampp/lib/libtiff.so.5
-> > setelah itu restart lampp
+
+# setelah itu restart lampp
+
 > > /opt/lampp/lampp restart
 
-jika belum bisa lakukan LD_PRELOAD pada libgs.so.9
+#Jika belum bisa lakukan LD_PRELOAD pada libgs.so.9
 caranya :
 
 > > export LD_PRELOAD=path libgs.so.9
-> > cek apakah sudah masuk dengan caranya
+
+#cek apakah sudah masuk dengan caranya
+
 > > ldd /bin/ls
 
 Untuk Melihat error yang ditulis dengan STDOUT
